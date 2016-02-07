@@ -1,7 +1,8 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #eee;
+  background-color: #36424A;
+  color:#fff;
 }
 
 .form-signin {
@@ -28,13 +29,21 @@ body {
 .form-signin .form-control:focus {
   z-index: 2;
 }
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.form-signin input[type="password"] {
+
+ input{
   margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+}
+
+.btn, input{
+  border: none;
+  border-radius: 0;
+}
+
+.btn-primary{
+  background: #ff953f;
+}
+
+.btn:hover{
+  background: #ccc;
+  color: #666;
 }
